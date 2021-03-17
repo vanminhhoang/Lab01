@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_linear"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+                <ImageView
+                    android:src="@drawable/ic_circle"
+                    android:layout_width="142dp"
+                    android:layout_height="142dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textAlignment="center"
+            android:textFontWeight="700"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:text="GROW YOUR BUSINESS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="We will help you to grow your business using online server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginRight="40dp"
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:backgroundTint="#E3C000"
+                android:text="LOGIN" />
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:backgroundTint="#E3C000"
+                android:text="SIGN IN" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:text="HOW WE WORK?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
